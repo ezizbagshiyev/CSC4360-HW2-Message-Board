@@ -1,0 +1,16 @@
+name: message_board
+description: Message Board Vault for CSC 4360 Homework 2.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.10.0
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.15.2
+  firebase_auth: ^6.7.1
+  cloud_firestore: ^6.10.2
+dev_dependencies:
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
